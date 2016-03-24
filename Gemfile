@@ -4,6 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
 
+# Yay bootstrap!
+
+gem 'bootstrap-generators', '~> 3.3.4'
+
 # Use postgresql as the database for Active Record (Heroku!!!)
 gem 'pg', '~> 0.15'
 
