@@ -3,10 +3,17 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
-# Use postgresql as the database for Active Record
+
+# Use postgresql as the database for Active Record (Heroku!!!)
 gem 'pg', '~> 0.15'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+
+# As per instructions at https://devcenter.heroku.com/articles/getting-started-with-rails4
+gem 'rails_12factor', group: :production
+
+# Use LESS for stylesheets, as per instructions at, https://github.com/decioferreira/bootstrap-generators
+gem 'therubyracer', platforms: :ruby
+gem 'less-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
