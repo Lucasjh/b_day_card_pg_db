@@ -16,7 +16,9 @@ gem 'rails_12factor', group: :production
 
 # Use LESS for stylesheets, as per instructions at, https://github.com/decioferreira/bootstrap-generators
 gem 'therubyracer', platforms: :ruby
-gem 'less-rails'
+# gem 'less-rails'
+
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
